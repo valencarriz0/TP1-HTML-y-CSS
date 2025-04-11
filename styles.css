@@ -68,14 +68,7 @@ body {
     border-radius: 0 0 20px 20px;
 }
 
-.card-tittle {
-    width: 310px;
-    height: 800px;
-    display: flex;
-    flex-direction: column;
-}
-.card-tittle h1 {
-    width: 100%;
+.tittle{
     height: 150px;
     text-align: start;
     color: #D9A300;
@@ -84,7 +77,8 @@ body {
     font-family: 'Poppins', sans-serif;
     padding: 0 0 0 15px;
 }
-.card-tittle h1:hover {
+
+.tittle:hover {
     color: #ffc415;
     transform: scale(1.02);
     transition: transform 0.3s ease;
